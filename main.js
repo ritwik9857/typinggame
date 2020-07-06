@@ -51,7 +51,7 @@ let isplaying;
  ]
 
  function init() {
-
+    currentWord.innerHTML='';
 }
 function startgame(){
     document.querySelector('#score').textContent='0';
