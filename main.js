@@ -115,6 +115,7 @@ function countdown(){
 function checkstatus(){
     if(!isplaying && time === 0){
         message.innerHTML='GameOver!!'
+        message1.innerHTML='';
         score = -1 ;
     }
     else {
